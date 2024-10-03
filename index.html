@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+    <!--  -->
+
+</head>
+
+<body style="display: flex; flex-direction: column;">
+    <div class="stopwatch-container">
+        <h1>Stopwatch</h1>
+        <div id="time-display">00:00:00.000</div>
+        <div class="buttons">
+            <button id="start-stop" class="control-button">Start</button>
+            <button id="reset" class="control-button">Reset</button>
+            <button id="lap" class="control-button">Lap</button>
+        </div>
+        <ul id="laps-list"></ul>
+    </div>
+
+    <div class="copyright">Designed By Moiz</div>
+    <script src="script.js"></script>
+</body>
+
+</html>

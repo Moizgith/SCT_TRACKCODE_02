@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.stopwatch-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#time-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.control-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.control-button:hover {
+    background-color: #45a049;
+}
+
+#lap {
+    background-color: #008CBA;
+}
+
+#lap:hover {
+    background-color: #007bb5;
+}
+
+#reset {
+    background-color: #f44336;
+}
+
+#reset:hover {
+    background-color: #d32f2f;
+}
+
+#laps-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lap-item {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.copyright
+{
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 2rem;
+    padding-top: 50px;
+    font-weight: 600;
+}
